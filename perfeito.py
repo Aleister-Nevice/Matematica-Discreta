@@ -37,7 +37,7 @@ def verifica_perfeito(n):
     # Se o total da soma for igual ao número n fornecido como argumento para a função
     if (soma == n):
         print ("O número %d é perfeito" %n)
-        print ("Seus divisores são: " + divisores)
+        print ("Seus divisores são: %s" %divisores)
         
         # Toda função retorna algo. Neste caso, a função verifica_perfeito retorna uma variável booleana cujo valor é True
         return True

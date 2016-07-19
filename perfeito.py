@@ -52,13 +52,6 @@ if __name__ == "__main__":
     v = input("Entre com o valor inicial de v: ")
     
     # O trecho de código dentro do While irá se repetir infinitamente, pois a condição dada (True) é sempre verdadeira
-    while True:
-        # Chama a função verifica_perfeito() e envia como argumento a variável v cujo valor foi informado pelo usuário.
-        # Se a função retornar True
-        if (verifica_perfeito(v) == True):
-            # Pare a repetição while
-            break
-        # Senão
-        else:
+    while (not verifica_perfeito(v)):
             # Pegue o valor informado pelo usuário, some a 1 e repita o programa
             v = v + 1
